@@ -45,7 +45,7 @@ const NeumorphicButton = ({ children, className = "", active = false }: { childr
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center px-10 py-6 bg-white/40 backdrop-blur-xl border-b border-white/10">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center px-10 py-8">
       <div className="bg-[#f0f7ff] shadow-[8px_8px_16px_rgba(0,0,0,0.03),-8px_-8px_16px_rgba(255,255,255,0.8)] rounded-full px-4 py-2 flex items-center gap-2">
         <button className="px-6 py-2 rounded-full text-[13px] font-bold text-blue-600 shadow-[inset_2px_2px_5px_rgba(0,0,0,0.05),inset_-2px_-2px_5px_rgba(255,255,255,0.8)]">首页</button>
         <button className="px-6 py-2 rounded-full text-[13px] font-bold text-slate-500 hover:text-slate-800 transition-colors">社区</button>
